@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Image Sharedprefarencess</string>
+    <string name="md_shaon_ali">Md Shaon Ali</string>
+    <string name="hello_md_shaon_ali">Hello Md Shaon Ali!</string>
+    <string name="f_name">First Name</string>
+    <string name="l_name">Last Name</string>
+    <string name="password">password</string>
+    <string name="re_password">re_password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="signup_username">username</string>
+    <string name="signin_user_name">user_name</string>
+</resources>

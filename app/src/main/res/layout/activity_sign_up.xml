@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp"
+            android:orientation="vertical"
+            tools:ignore="ScrollViewSize,UselessParent">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/images"
+                app:riv_corner_radius="65dp" />
+
+
+            <EditText
+                android:id="@+id/FirstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="10dp"
+                android:allowUndo="true"
+                android:background="@drawable/card_bg"
+                android:defaultFocusHighlightEnabled="false"
+                android:elevation="10dp"
+                android:ems="12"
+                android:enabled="true"
+                android:gravity="center_vertical"
+                android:hint="@string/f_name"
+                android:inputType="textPersonName"
+                android:padding="18dp"
+                android:textSize="20sp"
+                tools:ignore="Autofill,TextFields,UnusedAttribute" />
+
+            <EditText
+                android:id="@+id/LastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="10dp"
+                android:allowUndo="true"
+                android:background="@drawable/card_bg"
+                android:defaultFocusHighlightEnabled="false"
+                android:elevation="10dp"
+                android:ems="12"
+                android:enabled="true"
+                android:gravity="center_vertical"
+                android:hint="@string/l_name"
+                android:inputType="textPersonName"
+                android:padding="18dp"
+                android:textSize="20sp"
+                tools:ignore="Autofill,TextFields,UnusedAttribute" />
+
+            <EditText
+                android:id="@+id/signup_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="10dp"
+                android:allowUndo="true"
+                android:background="@drawable/card_bg"
+                android:defaultFocusHighlightEnabled="false"
+                android:elevation="10dp"
+                android:ems="12"
+                android:enabled="true"
+                android:gravity="center_vertical"
+                android:hint="@string/signup_username"
+                android:inputType="textPersonName"
+                android:padding="18dp"
+                android:textSize="20sp"
+                tools:ignore="Autofill,TextFields,UnusedAttribute" />
+
+            <EditText
+                android:id="@+id/signup_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="10dp"
+                android:allowUndo="true"
+                android:background="@drawable/card_bg"
+                android:defaultFocusHighlightEnabled="false"
+                android:elevation="10dp"
+                android:ems="12"
+                android:enabled="true"
+                android:gravity="center_vertical"
+                android:hint="@string/password"
+                android:inputType="textWebPassword|textPassword"
+                android:padding="18dp"
+                android:textSize="20sp"
+                tools:ignore="Autofill,TextFields,UnusedAttribute" />
+
+            <EditText
+                android:id="@+id/signup_re_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="10dp"
+                android:allowUndo="true"
+                android:background="@drawable/card_bg"
+                android:defaultFocusHighlightEnabled="false"
+                android:elevation="10dp"
+                android:ems="12"
+                android:enabled="true"
+                android:gravity="center_vertical"
+                android:hint="@string/re_password"
+                android:inputType="textWebPassword|textPassword"
+                android:padding="18dp"
+                android:textSize="20sp"
+                tools:ignore="Autofill,TextFields,UnusedAttribute" />
+
+            <Button
+                android:id="@+id/SignUpbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/sign_in_btn"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/sign_up"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="30dp"
+                android:gravity="bottom"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                tools:ignore="HardcodedText">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="right"
+                    android:padding="3dp"
+                    android:text="already registered."
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    tools:ignore="RtlHardcoded" />
+
+
+                <TextView
+                    android:id="@+id/signup_login_account"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="start"
+                    android:padding="3dp"
+                    android:text="login account"
+                    android:textColor="#FE5722"
+                    android:textSize="14sp"
+                    android:textStyle="bold|italic" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

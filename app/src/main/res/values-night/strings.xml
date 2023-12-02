@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_md_shaon_ali">Hello Md Shaon Ali!</string>
+    <string name="enter_password">Enter password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="signup_username">username</string>
+    <string name="signup_user_name">user_name</string>
+</resources>
